@@ -1,0 +1,23 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Interpolation</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>varcolor</Shortcut>
+    <Description>Code snippet for adding interpolation</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>variableName</ID>
+        <ToolTip>Replace this with a variable name to interpolate its output</ToolTip>
+        <Default>$variable</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[#{$variableName$}$end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

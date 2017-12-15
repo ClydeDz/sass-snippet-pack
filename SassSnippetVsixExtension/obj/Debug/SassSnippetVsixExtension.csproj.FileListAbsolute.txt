@@ -1,0 +1,9 @@
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\bin\Debug\Resources\Icon.png
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\bin\Debug\Resources\Preview.png
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\bin\Debug\Snippets\snippets.pkgdef
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\bin\Debug\SassSnippetVsixExtension.vsix
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\bin\Debug\extension.vsixmanifest
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\obj\Debug\SassSnippetVsixExtension.csproj.CoreCompileInputs.cache
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\obj\Debug\SassSnippetVsixExtension.dll
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\obj\Debug\SassSnippetVsixExtension.pdb
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\obj\Debug\extension.vsixmanifest

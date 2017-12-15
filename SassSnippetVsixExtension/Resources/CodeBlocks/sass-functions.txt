@@ -1,0 +1,14 @@
+﻿lighten($color, $amount)
+$color (Sass::Script::Value::Color)
+$amount (Sass::Script::Value::Number) — The amount to increase the lightness by, between 0% and 100%
+
+darken($color, $amount)
+$color (Sass::Script::Value::Color)
+$amount (Sass::Script::Value::Number) — The amount to decrease the lightness by, between 0% and 100%
+
+opacify($color, $amount)
+$color (Sass::Script::Value::Color)
+$amount (Sass::Script::Value::Number) — The amount to increase the opacity by, between 0 and 1
+
+percentage($number)
+$number (Sass::Script::Value::Number)

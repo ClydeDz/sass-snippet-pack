@@ -1,0 +1,12 @@
+﻿$elementColor: "red";
+
+.p {
+    color: $elementColor;
+}
+
+$elementColor: "red";
+
+.p {
+    color: $elementColor;
+    width: percentage($number)
+}
