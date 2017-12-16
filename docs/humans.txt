@@ -1,0 +1,5 @@
+﻿Sass Snippet Pack
+==================
+(c) 2017 Clyde D'Souza
+www.clydedsouza.net
+www.twitter.com/clydedz
