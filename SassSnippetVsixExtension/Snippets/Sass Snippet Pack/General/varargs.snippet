@@ -1,0 +1,42 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Variable arguments</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>varargs</Shortcut>
+    <Description>
+      Inserts a code snippet that demonstrates variable arguments.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>selector</ID>
+        <ToolTip>Replace this with the selector you want</ToolTip>
+        <Default>p</Default>
+      </Literal>
+      <Literal>
+        <ID>mixinName</ID>
+        <ToolTip>Replace this with a suitable mixin name</ToolTip>
+        <Default>apply-style</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+        @mixin $mixinName$( $$a, $$b ) {
+          // Do something with the passed arguments. Something like:
+          // margin: $$a;
+          // color: $$b
+        }
+        
+        $$commonValues: 9px, brown;
+        
+        $selector$ {
+          @include $mixinName$( $$commonValues... );
+        }
+        $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

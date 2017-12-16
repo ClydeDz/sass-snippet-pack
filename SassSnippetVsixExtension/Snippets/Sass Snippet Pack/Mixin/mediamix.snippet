@@ -1,0 +1,43 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Mixin for mobile media queries</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>mediamix</Shortcut>
+    <Description>
+      Inserts a code snippet that creates a modifiable mixin for media queries.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>mediaMixinName</ID>
+        <ToolTip>Replace this with a suitable mixin name</ToolTip>
+        <Default>media-mixin</Default>
+      </Literal>
+      <Literal>
+        <ID>selector</ID>
+        <ToolTip>Replace this with the selector you want</ToolTip>
+        <Default>div</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+          @mixin $mediaMixinName$( $$max-min, $$breakpoint ) {
+            @media (#{$$max-min}-width: #{$$breakpoint}) {
+                @content;
+            }
+          }
+          
+          $selector$ {
+            // Code for mobile layout 
+            @include $mediaMixinName$( max, 768px ) {
+              display: inline-block;
+            }
+          }
+        $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

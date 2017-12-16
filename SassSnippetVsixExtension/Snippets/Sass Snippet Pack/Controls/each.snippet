@@ -1,0 +1,25 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Each loop</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>each</Shortcut>
+    <Description>
+      Inserts an each loop that goes through all items in the list specified in a loop, assigns each value in a variable and uses that value in the code.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Code Language="CSS">
+      <![CDATA[
+      @each $$animal in cat, dog, mouse, cow {
+        .#{$$animal}-icon {
+          background-image: url('/images/#{$$animal}.png');
+        }
+      }
+      $end$
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

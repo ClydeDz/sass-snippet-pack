@@ -1,0 +1,27 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Percentage</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>percent</Shortcut>
+    <Description>
+      Inserts a built-in Sass percentage function that returns the percentage of the value specified.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>numericValue</ID>
+        <ToolTip>Replace this with a valid numeric unit</ToolTip>
+        <Default>0.4</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+      percentage($numericValue$);
+      $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

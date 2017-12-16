@@ -1,0 +1,39 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Import statements</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>import</Shortcut>
+    <Description>
+      Inserts 3 different import statements into the editor demonstrating the ways of importing in Sass.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>webFontUrl</ID>
+        <ToolTip>Replace this with the web URL you want to import</ToolTip>
+        <Default>https://fonts.googleapis.com/css?family=Numans|Raleway:800</Default>
+      </Literal>
+      <Literal>
+        <ID>regularCss</ID>
+        <ToolTip>Replace this with the CSS file you want to import.</ToolTip>
+        <Default>main.css</Default>
+      </Literal>
+      <Literal>
+        <ID>scssPartial</ID>
+        <ToolTip>Replace this with a partial scss file you want to import.</ToolTip>
+        <Default>components/buttons</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+          @import url('$webFontUrl$');
+          @import "$regularCss$";
+          @import "$scssPartial$";
+          $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

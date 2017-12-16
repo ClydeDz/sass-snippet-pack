@@ -1,0 +1,48 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Padding namespacing</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>padding</Shortcut>
+    <Description>
+      Inserts a code snippet that for each padding direction when you want to explicitly specify different values for each, all grouped under a single namespace.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>paddingTop</ID>
+        <ToolTip>Replace this with the required padding value</ToolTip>
+        <Default>7px</Default>
+      </Literal>
+      <Literal>
+        <ID>paddingRight</ID>
+        <ToolTip>Replace this with the required padding value</ToolTip>
+        <Default>5px</Default>
+      </Literal>
+      <Literal>
+        <ID>paddingBottom</ID>
+        <ToolTip>Replace this with the required padding value</ToolTip>
+        <Default>6px</Default>
+      </Literal>
+      <Literal>
+        <ID>paddingLeft</ID>
+        <ToolTip>Replace this with the required padding value</ToolTip>
+        <Default>9px</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+      padding: {
+        top: $paddingTop$;
+        right: $paddingRight$;
+        bottom: $paddingBottom$;
+        left: $paddingLeft$;
+      }
+      $end$
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

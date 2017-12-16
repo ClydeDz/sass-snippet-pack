@@ -1,0 +1,38 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Extend</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>extend</Shortcut>
+    <Description>
+      Inserts a code snippet demonstrating Sass extend.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>extendName</ID>
+        <ToolTip>Give this placeholder class a name that describes what it does</ToolTip>
+        <Default>btn-generic</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+      // This is a placeholder class
+      %$extendName$ {
+          margin: 9px;
+          padding: 18px;
+      }
+      
+      .btn-main {
+          @extend %$extendName$;
+           
+          color: white;
+          background-color: blue;
+      }
+      $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

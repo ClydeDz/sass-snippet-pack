@@ -1,0 +1,27 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>While loop</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>while</Shortcut>
+    <Description>
+      Inserts a simple while loop.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Code Language="CSS">
+      <![CDATA[
+      $$i: 3;
+      @while $$i > 0 {
+        .item-#{$$i} {
+          width: 2em * $$i; 
+        }
+        $$i: $$i - 1;
+      }
+      $end$
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

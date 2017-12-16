@@ -1,11 +1,14 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="8ba2bc78-2fc8-412e-b131-4a40a5000c54" Version="1.0" Language="en-US" Publisher="CLYDE DSOUZA" />
+    <Identity Id="8ba2bc78-2fc8-412e-b131-4a40a5000c54" Version="1.0.0" Language="en-US" Publisher="Clyde D'Souza" />
     <DisplayName>Sass Snippet Pack</DisplayName>
-    <Description xml:space="preserve">A Sass snippet extension</Description>
+    <Description xml:space="preserve">A snippet pack to help you write scss code. </Description>
+    <MoreInfo>https://github.com/ClydeDz/sass-snippet-pack/wiki</MoreInfo>
+    <License>license.txt</License>
+    <ReleaseNotes>release-notes.txt</ReleaseNotes>
     <Icon>Icon.png</Icon>
     <PreviewImage>Preview.png</PreviewImage>
-    <Tags>snippets, sass, scss</Tags>
+    <Tags>sass, scss, snippet-pack</Tags>
   </Metadata>
   <Installation>
     <!--Microsoft.VisualStudio.Pro includes all SKUs such as Community, Pro, Ultimate and Enterprise-->

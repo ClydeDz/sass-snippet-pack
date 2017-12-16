@@ -2,4 +2,4 @@
 ; Languages: "Basic", "C/C++", "CSharp", "CSS", "HTML", "JavaScript", "SQL_SSDT", "XML"
 
 [$RootKey$\Languages\CodeExpansions\CSS\Paths]
-"Sass Snippets Pack"="$PackageFolder$\Sass Snippets"
+"Sass Snippet Pack"="$PackageFolder$\Sass Snippet Pack"

@@ -1,0 +1,38 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Creating a custom function</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>custfunc</Shortcut>
+    <Description>
+      Inserts a code snippets demonstrating a custom Sass function.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>functionName</ID>
+        <ToolTip>Replace this with a valid function name describing what the function does</ToolTip>
+        <Default>sum-function</Default>
+      </Literal>
+      <Literal>
+        <ID>selector</ID>
+        <ToolTip>Replace this with your selector</ToolTip>
+        <Default>p</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+      @function $functionName$($$x, $$y){
+        @return $$x + $$y;
+      }
+      
+      $selector${
+        font-size: $functionName$(10px, 5px);
+      }
+      $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

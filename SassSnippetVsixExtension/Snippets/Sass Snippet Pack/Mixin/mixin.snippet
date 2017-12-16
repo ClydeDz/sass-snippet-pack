@@ -1,0 +1,34 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Mixin</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>mixin</Shortcut>
+    <Description>
+      Inserts a code snippet demonstrating the use of Sass mixin.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>mixinName</ID>
+        <ToolTip>Give this mixin a name that describes what the mixin does</ToolTip>
+        <Default>red-round</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+      @mixin $mixinName$( $$radius ) {
+        color: red;
+        border-radius: $$radius;
+      }
+
+      .p {
+        @include $mixinName$( 30px );
+      }
+      $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

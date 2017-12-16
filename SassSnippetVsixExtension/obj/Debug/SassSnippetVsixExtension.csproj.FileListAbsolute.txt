@@ -7,3 +7,6 @@ F:\Code\SassVsixExtension\SassSnippetVsixExtension\obj\Debug\SassSnippetVsixExte
 F:\Code\SassVsixExtension\SassSnippetVsixExtension\obj\Debug\SassSnippetVsixExtension.dll
 F:\Code\SassVsixExtension\SassSnippetVsixExtension\obj\Debug\SassSnippetVsixExtension.pdb
 F:\Code\SassVsixExtension\SassSnippetVsixExtension\obj\Debug\extension.vsixmanifest
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\obj\Debug\SassSnippetVsixExtension.csprojResolveAssemblyReference.cache
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\bin\Debug\license.txt
+F:\Code\SassVsixExtension\SassSnippetVsixExtension\bin\Debug\release-notes.txt

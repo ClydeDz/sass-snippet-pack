@@ -1,0 +1,27 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>String length</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>len</Shortcut>
+    <Description>
+      Inserts a built-in Sass string length function that returns the length of the string specified.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>stringValue</ID>
+        <ToolTip>Replace this with a valid string</ToolTip>
+        <Default>hello world</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+      str-length("$stringValue$");
+      $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,0 +1,30 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Using variable</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>varuse</Shortcut>
+    <Description>
+      Inserts a code snippet that adds a color to a selector using a variable.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>selector</ID>
+        <ToolTip>Replace this with the selector you want</ToolTip>
+        <Default>p</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+        $$elementColor: "red";
+        .$selector$ {
+          color: $$elementColor;
+        }
+        $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

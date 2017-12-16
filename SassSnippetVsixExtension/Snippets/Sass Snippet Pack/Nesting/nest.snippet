@@ -1,0 +1,39 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Simple nesting</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>nest</Shortcut>
+    <Description>
+      Inserts a simple nested scss code block.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>parentSelector</ID>
+        <ToolTip>Replace this with a valid parent selector</ToolTip>
+        <Default>#main</Default>
+      </Literal>
+      <Literal>
+        <ID>childSelector</ID>
+        <ToolTip>Replace this with a valid child selector</ToolTip>
+        <Default>.child</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+      $parentSelector$ {
+        // Add properties for the parent selector
+
+        $childSelector$ {
+          // Add properties specific to the child selector
+        }
+      }
+      $end$
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,19 +1,33 @@
-﻿
-a {
-    // Add some properties here
-    &&:hover {
-        // Add some properties here
-    }
+﻿a {
+    color: percentage($number);
+}
 
-    &&:active {
-        // Add some properties here
-    }
 
-    &&:visited {
-        // Add some properties here
-    }
-
-    &&:focus {
-        // Add some properties here
+@mixin media-mixin( $max-min, $breakpoint ) {
+    @media (#{$max-min}-width: #{$breakpoint}) {
+        @content;
     }
 }
+
+div {
+    // Code for mobile layout
+    @include media-mixin( $max-width, $even-breakpoint ) {
+        display: inline-block;
+    }
+}
+
+
+
+@mixin media-mixin( $max-min, $breakpoint ) {
+    @media (#{$max-min}-width: #{$breakpoint}) {
+        @content;
+    }
+}
+
+div {
+    // Code for mobile layout
+    @include media-mixin( max, 768px ) {
+        display: inline-block;
+    }
+}
+        

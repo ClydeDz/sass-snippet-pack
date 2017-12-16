@@ -49,78 +49,104 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\CodeBlocks\sass-functions.txt" />
+    <Content Include="Icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="license.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="release-notes.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Resources\Icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Resources\license.txt" />
     <Content Include="Resources\Preview.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\varcolor.snippet">
+    <Content Include="Resources\release-notes.txt" />
+    <Content Include="Snippets\Sass Snippet Pack\General\varuse.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="LICENSE" />
     <None Include="readme.md" />
-    <Content Include="Snippets\Sass Snippets\Functions\percent.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Functions\percent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Comments\sl.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Comments\sl.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Comments\ml.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Comments\ml.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\interpolation.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\General\interpolation.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Nesting\nest.snippet" />
-    <Content Include="Snippets\Sass Snippets\Nesting\nestgen.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Nesting\nest.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Mixin\mixin.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Nesting\nestgen.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Extend\extend.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Mixin\mixin.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\import.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Extend\extend.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Functions\max.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\General\import.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Functions\len.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Functions\max.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Nesting\font.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Functions\len.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Nesting\border.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Nesting\font.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Nesting\background.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Nesting\border.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Nesting\padding.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Nesting\background.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Nesting\margin.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Nesting\padding.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Nesting\parentref.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Nesting\margin.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Controls\for.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Nesting\parentref.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Controls\each.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Controls\for.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Controls\while.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Controls\each.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Sass Snippets\Functions\custom.snippet">
+    <Content Include="Snippets\Sass Snippet Pack\Controls\while.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\Sass Snippet Pack\Functions\custom.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\Sass Snippet Pack\Mixin\mediamix.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\Sass Snippet Pack\General\varargs.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
