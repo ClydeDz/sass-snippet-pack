@@ -2,6 +2,9 @@
 A snippet pack to help you write scss code. This adds a code snippet pack in the 
 code snippet manager of Visual Studio.
 
+##  Where to get it?
+Download the Sass Snippet Pack from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=clydedsouza.SassSnippetVsixExtension) or install directly from Visual Studio by searching for "Sass Snippet Pack" in the 'Extensions and Updates' window.
+
 ## How to use?
 Shortcuts for each snippet have been added and should appear while typing in a CSS file. 
 Else, use the ``Ctrl K + Ctrl X`` to bring up the CSS code snippet manager and find the Sass Snippet Pack 
