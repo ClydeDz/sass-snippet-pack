@@ -1,0 +1,37 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Mixin</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>mixin</Shortcut>
+    <Description>
+      Code snippet for adding a mixin
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>mixinName</ID>
+        <ToolTip>Give this mixin a name that describes what this mixin does</ToolTip>
+        <Default>red-round</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+      // This is the syntax for creating a mixin
+      // Can also create a mixin with no parameters or one with variable parameters
+      @mixin $mixinName$( $$radius ) {
+        color: red;
+        border-radius: $$radius;
+      }
+
+      // This is how you would use a mixin
+      .p {
+        @include $mixinName$( 30px );
+      }
+      $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

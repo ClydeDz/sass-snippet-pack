@@ -1,0 +1,48 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Border Namespacing</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>border</Shortcut>
+    <Description>
+      Code snippet that adds the most commonly used border properties under a single namespace.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>borderColor</ID>
+        <ToolTip>Replace this with the required border colour</ToolTip>
+        <Default>blue</Default>
+      </Literal>
+      <Literal>
+        <ID>borderRadius</ID>
+        <ToolTip>Replace this with the required border radius</ToolTip>
+        <Default>60px</Default>
+      </Literal>
+      <Literal>
+        <ID>borderStyle</ID>
+        <ToolTip>Replace this with the required border style</ToolTip>
+        <Default>dashed</Default>
+      </Literal>
+      <Literal>
+        <ID>borderWidth</ID>
+        <ToolTip>Replace this with the required border width</ToolTip>
+        <Default>30px</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+       border: {
+        color: $borderColor$;
+        radius: $borderRadius$;
+        style: $borderStyle$;
+        width: $borderWidth$;       
+      }
+      $end$
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

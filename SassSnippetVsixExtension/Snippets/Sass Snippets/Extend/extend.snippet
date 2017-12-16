@@ -1,0 +1,41 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Extend</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>mixin</Shortcut>
+    <Description>
+      Code snippet for using extend
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>extendName</ID>
+        <ToolTip>Give this placeholder class a name that describes what it does</ToolTip>
+        <Default>btn-generic</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+      // This is the syntax for creating a placeholder class to extend
+      %$extendName$ {
+          margin: 9px;
+          padding: 18px;
+      }
+      
+      .btn-main {
+          // This is how you would extend the parent class
+          @extend %$extendName$;
+          
+          // Ideally, after extend the parent class properties
+          // you would also include properties for the child element.
+          color: white;
+          background-color: blue;
+      }
+      $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

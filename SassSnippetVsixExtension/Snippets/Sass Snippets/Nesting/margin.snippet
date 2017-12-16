@@ -1,0 +1,49 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Margin Namespacing</Title>
+    <Author>Clyde D'Souza</Author>
+    <Shortcut>margin</Shortcut>
+    <Description>
+      Code snippet that adds each margin direction in a situation 
+      where you want to explicitly specify different values for each.
+    </Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>marginTop</ID>
+        <ToolTip>Replace this with the required margin value</ToolTip>
+        <Default>7px</Default>
+      </Literal>
+      <Literal>
+        <ID>marginRight</ID>
+        <ToolTip>Replace this with the required margin value</ToolTip>
+        <Default>5px</Default>
+      </Literal>
+      <Literal>
+        <ID>marginBottom</ID>
+        <ToolTip>Replace this with the required margin value</ToolTip>
+        <Default>6px</Default>
+      </Literal>
+      <Literal>
+        <ID>marginLeft</ID>
+        <ToolTip>Replace this with the required margin value</ToolTip>
+        <Default>9px</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSS">
+      <![CDATA[
+      margin: {
+        top: $marginTop$;
+        right: $marginRight$;
+        bottom: $marginBottom$;
+        left: $marginLeft$;
+      }
+      $end$
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

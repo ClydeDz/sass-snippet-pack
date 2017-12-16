@@ -1,12 +1,19 @@
-﻿$elementColor: "red";
+﻿
+a {
+    // Add some properties here
+    &&:hover {
+        // Add some properties here
+    }
 
-.p {
-    color: $elementColor;
-}
+    &&:active {
+        // Add some properties here
+    }
 
-$elementColor: "red";
+    &&:visited {
+        // Add some properties here
+    }
 
-.p {
-    color: $elementColor;
-    width: percentage($number)
+    &&:focus {
+        // Add some properties here
+    }
 }
