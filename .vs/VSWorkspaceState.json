@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SassSnippetVsixExtension",
-    "\\SassSnippetVsixExtension\\Snippets"
+    "\\SassSnippetVsixExtension"
   ],
-  "SelectedNode": "\\SassSnippetVsixExtension\\Snippets\\snippets.pkgdef",
+  "SelectedNode": "\\SassSnippetVsixExtension\\Snippets",
   "PreviewInSolutionExplorer": false
 }
