@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sass Snippet Pack - A Visual Studio Extension by Clyde D'Souza</title>
     <meta name="description" content="Sass Snippet Pack is a Visual Studio Extension to help you write scss code developed by Clyde D'Souza. Compatible with Visual Studio 2017. Download Now.">
     <meta name="Keywords" content="sass, scss, snippet pack, Clyde D'souza, visual studio, visual studio extension, visual studio marketplace, visual studio 2017, visual studio community, visual studio professional, visual studio enterprise" />
     <meta name="author" content="Clyde D'Souza">
-    <!--<meta name="msvalidate.01" content="" />-->
+    <meta name="msvalidate.01" content="8ABC4E1B7DBE4391CF265948730B9299" />
     <link rel="canonical" href="https://clydedz.github.io/sass-snippet-pack/">
 
     <!--CSS-->
@@ -20,7 +21,7 @@
     <meta property="og:url" content="https://clydedz.github.io/sass-snippet-pack/" />
     <meta property="og:image" content="https://raw.githubusercontent.com/ClydeDz/sass-snippet-pack/master/SassVsixExtension.Website/SassVsixExtension.Website/images/banners/sass-vsix-ext-siteteaser.png" />
     <meta property="og:description" content="Sass Snippet Pack is a Visual Studio Extension to help you write scss code developed by Clyde D'Souza. Compatible with Visual Studio 2017. Download Now." />
-    <!--<meta property="fb:app_id" content="" />-->
+    <meta property="fb:app_id" content="1189872997782304" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="https://clydedz.github.io/sass-snippet-pack/">
     <meta name="twitter:creator" content="ClydeDz">
@@ -51,6 +52,15 @@
     <!--Additional-->
     <link rel="sitemap" type="text/plain" title="Sitemap" href="/sitemap.txt">
     <link type="text/plain" rel="author" href="/humans.txt" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111334423-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-111334423-1');
+    </script>
 </head>
 <body lang="en">
     <div class="main-container">
@@ -70,13 +80,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-4 text-center">
-                        <a href="#about">About</a>
+                        <a href="#about" 
+                           onclick="trackInternalLink('nav menu click', 'about');">About</a>
                     </div>
                     <div class="col-xs-4 text-center">
-                        <a href="#how-to-get-it">How to get it</a>
+                        <a href="#how-to-get-it" 
+                           onclick="trackInternalLink('nav menu click', 'how to get it');">How to get it</a>
                     </div>
                     <div class="col-xs-4 text-center">
-                        <a href="#feedback">Feedback</a>
+                        <a href="#feedback" 
+                           onclick="trackInternalLink('nav menu click', 'feedback');">Feedback</a>
                     </div>
                 </div>
             </div>
@@ -115,7 +128,9 @@
                         <div class="col-xs-12">
                             <p>
                                 Download the Sass Snippet Pack from the
-                                <a href="https://marketplace.visualstudio.com/items?itemName=clydedsouza.SassSnippetVsixExtension" target="_self">Visual Studio Marketplace</a>
+                                <a href="https://marketplace.visualstudio.com/items?itemName=clydedsouza.SassSnippetVsixExtension" 
+                                   target="_self" 
+                                   onclick="trackOutboundLink('visual studio marketplace click', 'visual studio marketplace - how to get it section');">Visual Studio Marketplace</a>
                                 or install directly from Visual Studio by searching for <i>"Sass Snippet Pack"</i> in the <i>'Extensions and Updates'</i> window.
                             </p>
                         </div>
@@ -131,11 +146,16 @@
                         <div class="col-xs-12">
                             <p>
                                 The Sass Snippet Pack is in version 1.0.0 (beta) as of now and therefore you may find certain snippets/features missing. 
-                                It would be great if you could create a <a href="https://github.com/ClydeDz/sass-snippet-pack/issues" target="_blank">new issue on GitHub here</a> and let me know what you’re after and I can include that in the product backlog for next releases.
+                                It would be great if you could create a <a href="https://github.com/ClydeDz/sass-snippet-pack/issues" 
+                                                                           target="_blank"
+                                                                           onclick="trackOutboundLink('github issues click', 'github issues page - feedback section');">new issue on GitHub here</a> and let me know what you’re after and I can include that in the product backlog for next releases.
                                 P.S. Please search existing issues first before creating a new one. 😃
                             </p>
                             <p>
-                                Special thanks to the <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.SnippetPackProjectTemplate" rel="nofollow" target="_blank">Snippet Pack Project Template by Mads Kristensen</a> for making it easier to create a new snippet pack and providing a really helpful explanation.
+                                Special thanks to the <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.SnippetPackProjectTemplate" 
+                                                         rel="nofollow" 
+                                                         target="_blank"
+                                                         onclick="trackOutboundLink('mads k snippet pack click', 'snippet pack by mads k - feedback section');">Snippet Pack Project Template by Mads Kristensen</a> for making it easier to create a new snippet pack and providing a really helpful explanation.
                             </p>
                         </div>
                     </div>
@@ -151,15 +171,51 @@
                             <img src="https://raw.githubusercontent.com/ClydeDz/sass-snippet-pack/master/SassSnippetVsixExtension/Resources/Preview.png" width="100" alt="Sass Snippet Pack Logo" />
                         </p>
                         <p>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=clydedsouza.SassSnippetVsixExtension" target="_self">Download from the Visual Studio Marketplace now</a>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=clydedsouza.SassSnippetVsixExtension" 
+                               target="_self" 
+                               onclick="trackOutboundLink('visual studio marketplace click', 'visual studio marketplace - footer section');">Download from the Visual Studio Marketplace now</a>
                         </p>
                         <p>
-                            Sass Snippet Pack &copy; 2017 <a href="https://clydedsouza.net" target="_blank" rel="author">Clyde D'Souza</a>
+                            Sass Snippet Pack &copy; 2017 <a href="https://clydedsouza.net" 
+                                                             target="_blank" 
+                                                             rel="author"
+                                                             onclick="trackOutboundLink('clyde dsouza click', 'clyde dsouza website - footer section');">Clyde D'Souza</a>
                         </p>
                     </div>
                 </div>
             </div>
         </footer>
     </div>
+    <script type="text/javascript">
+        /*
+        GOOGLE ANALYTICS
+        ****************************/
+        function trackOutboundLink(action, label) {
+            /// <summary>Method to send Google Analytics outbound tracking data.</summary>
+            /// <param name="action" type="string">The action that caused this event to trigger.</param> 
+            /// <param name="label" type="string">The outbound link details.</param> 
+            sendGoogleAnalyticsEventData('click', 'outbound', action, label);
+        }
+
+        function trackInternalLink(action, label) {
+            /// <summary>Method to send Google Analytics exception data.</summary>
+            /// <param name="error" type="string">The exception message that has been caught.</param> 
+            sendGoogleAnalyticsEventData('click', 'internal', action, label);
+        }
+
+        function sendGoogleAnalyticsEventData(eventType, category, action, label) {
+            /// <summary>Base method to send Google Analytics event data.</summary>
+            /// <param name="eventType" type="string">The type of event.</param> 
+            /// <param name="category" type="string">A custom message for the category of this event.</param> 
+            /// <param name="action" type="string">A string for the action of this event.</param>
+            /// <param name="label" type="string">A string for the label value of this event.</param> 
+            gtag('event', eventType, {
+                'event_category': category,
+                'event_action': action,
+                'event_label': label,
+                'transport_type': 'beacon'
+            });
+        }
+    </script>
 </body>
 </html>
