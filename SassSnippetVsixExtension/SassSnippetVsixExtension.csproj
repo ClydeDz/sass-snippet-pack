@@ -85,7 +85,9 @@
     <Content Include="packages.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="readme.md" />
+    <Content Include="readme.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Snippets\Sass Snippet Pack\Functions\percent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
