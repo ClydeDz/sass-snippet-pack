@@ -1,8 +1,0 @@
-Sass Snippet Pack 
-******************
-
-# Version 1.0.0
-Includes basic Sass snippets like mixin, extend, a couple of functions, etc. 
-
-Sass Snippet Pack Copyright 2017 Clyde D'Souza
-

@@ -1,16 +1,28 @@
 ﻿# Sass Snippet Pack for Visual Studio
-A snippet pack to help you write scss code. This adds a code snippet pack in the 
-code snippet manager of Visual Studio.
+A snippet pack to help you write scss code. This adds a code snippet pack in the code snippet manager of Visual Studio.
 
-![VSTS Online Build Status](https://clydedsouza.visualstudio.com/_apis/public/build/definitions/7c52bec1-78bf-44df-8d49-03c20ee978c6/2/badge)
+![VSTS Online Build Status](https://clydedsouza.visualstudio.com/_apis/public/build/definitions/7c52bec1-78bf-44df-8d49-03c20ee978c6/2/badge)  
 
-   
-##  Where to get it?
-Download the Sass Snippet Pack from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=clydedsouza.SassSnippetVsixExtension) or install directly from Visual Studio by searching for "Sass Snippet Pack" in the 'Extensions and Updates' window.
-   
+![Sass Snippet Pack in the Code Snippet Manager of Visual Studio 2017](https://raw.githubusercontent.com/ClydeDz/sass-snippet-pack/master/SassSnippetVsixExtension/Resources/codesnipmanager.png)
 
-## More details
-Please find more details in [this wiki](https://github.com/ClydeDz/sass-snippet-pack/wiki)
+## How to use?
+While writing your SCSS code in the editor, you can bring up the *sass snippet pack* code snippets by using the shortcut keys ``Ctrl K + Ctrl X``. Each code snippet also has a shortcut attached. The GIF below shows what happens after the keyboard shortcuts are entered in.  
+
+![](https://raw.githubusercontent.com/ClydeDz/sass-snippet-pack/master/SassSnippetVsixExtension/Resources/using-shortcut-codesnipmangr-vs.gif)  
+
+
+## Feedback
+Should you find certain snippets/features missing, feel free to create a [new issue on GitHub](https://github.com/ClydeDz/sass-snippet-pack/issues) and let me know what you're after and I can include that in the product backlog for next releases. Please search the issues first before creating a new one. :) 
+
+## Website
+[https://clydedz.github.io/sass-snippet-pack/](https://clydedz.github.io/sass-snippet-pack/)
+
+## GitHub
+[https://github.com/ClydeDz/sass-snippet-pack/](https://github.com/ClydeDz/sass-snippet-pack/)   
    
+## Facebook
+[Follow Sass Snippet Pack on Facebook](http://bit.ly/sasssnippetpackfb)   
      
+    
+
 Sass Snippet Pack (c) 2017 [Clyde D'Souza](https://clydedsouza.net)
