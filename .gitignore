@@ -23,9 +23,6 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-/sass-snippet-pack/SassSnippetVsixExtension/bin/
-**/bin/
-bin/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -331,11 +328,3 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
-SassSnippetVsixExtension/bin/Debug/extension.vsixmanifest
-SassSnippetVsixExtension/bin/Debug/license.txt
-SassSnippetVsixExtension/bin/Debug/release-notes.txt
-SassSnippetVsixExtension/bin/Debug/Resources/Icon.png
-SassSnippetVsixExtension/bin/Debug/Resources/Preview.png
-SassSnippetVsixExtension/bin/Debug/SassSnippetVsixExtension.vsix
-SassSnippetVsixExtension/bin/Debug/Snippets/snippets.pkgdef
-SassSnippetVsixExtension/bin/Debug/extension.vsixmanifest
