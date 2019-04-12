@@ -1,10 +1,9 @@
 ﻿# Sass Snippet Pack for Visual Studio
 A snippet pack to help you write scss code. This adds a code snippet pack in the code snippet manager of Visual Studio.
 
-[![Build status](https://clydedsouza.visualstudio.com/Sass%20Snippet%20Pack/_apis/build/status/Sass%20Snippet%20Pack%20Master%20Build)](https://clydedsouza.visualstudio.com/Sass%20Snippet%20Pack/_build/latest?definitionId=15)
 ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/clydedsouza.SassSnippetVsixExtension.svg) 
-![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/clydedsouza.SassSnippetVsixExtension.svg)  
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/clydedsouza.SassSnippetVsixExtension.svg)  
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/clydedsouza.SassSnippetVsixExtension.svg)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/clydedsouza.SassSnippetVsixExtension.svg)
 ![GitHub](https://img.shields.io/github/license/clydedz/sass-snippet-pack.svg)  
    
 ![Sass Snippet Pack in the Code Snippet Manager of Visual Studio 2017](https://raw.githubusercontent.com/ClydeDz/sass-snippet-pack/master/SassSnippetVsixExtension/Resources/codesnipmanager.png)
